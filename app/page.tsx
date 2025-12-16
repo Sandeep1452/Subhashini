@@ -7,7 +7,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="text-center mb-10">
         <h1 className="text-3xl font-bold">
-          Natural Organic Coconut & Herbal Oils
+          We offer natural, organic coconut and herbal oils, made with care and completely free from chemicals.
         </h1>
         <p className="mt-3 text-3xl font-bold">
           Pure. Ayurvedic. Trusted.
