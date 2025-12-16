@@ -9,7 +9,7 @@ export default function CartPage() {
   // PayButton for cart total
   const PayButton = ({ amount }: { amount: number }) => {
     const handleGPay = () => {
-      const upiId = 'sandeepkuppala123@gmail.com'; // Replace with your UPI ID
+      const upiId = 'sandeepkuppala123@oksbi'; // Replace with your UPI ID
       const name = 'Sandeep';
       const upiUrl = `upi://pay?pa=${upiId}&pn=${encodeURIComponent(name)}&am=${amount}&cu=INR`;
       window.open(upiUrl, '_blank'); // Opens the UPI/GPay app

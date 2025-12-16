@@ -1,8 +1,8 @@
 export function PayButton({ amount }: { amount: number }) {
     const handleGPay = () => {
       // UPI format: upi://pay?pa=upi-id@bank&pn=Name&am=Amount&cu=INR
-      const upiId = 'yourupiid@okaxis';
-      const name = 'Subhashini Products';
+      const upiId = 'sandeepkuppala123@oksbi';
+      const name = 'Sandeep';
       const upiUrl = `upi://pay?pa=${upiId}&pn=${encodeURIComponent(name)}&am=${amount}&cu=INR`;
   
       // Open in a new tab (GPay app will handle if on mobile)
