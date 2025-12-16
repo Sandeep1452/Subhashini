@@ -9,7 +9,7 @@ export default function Home() {
         <h1 className="text-3xl font-bold">
           Natural Organic Coconut & Herbal Oils
         </h1>
-        <p className="mt-3 text-black font-bold">
+        <p className="mt-3 text-3xl font-bold">
           Pure. Ayurvedic. Trusted.
         </p>
       </section>
