@@ -35,10 +35,6 @@ export default function ProductCard({ product }: any) {
         ))}
       </select>
 
-      <p className="mt-2 font-medium">
-        Price: ₹{selectedVariant.price}
-      </p>
-
           <button
               onClick={() => {
                   addToCart(product, selectedVariant);
